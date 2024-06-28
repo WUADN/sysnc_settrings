@@ -1,0 +1,232 @@
+{
+	"security.workspace.trust.untrustedFiles": "open",
+	"explorer.sortOrder": "modified",
+	"tabnine.experimentalAutoImports": true,
+	"CodeGPT.maxTokens": 10000,
+	"CodeGPT.query.language": "Chinese",
+	"explorer.compactFolders": false,
+	"workbench.colorTheme": "monokai-charcoal (green)",
+	"terminal.integrated.cwd": "${fileDirname}",
+	"chatgpt.lang": "cn",
+	"chatgpt.temperature": 0.8,
+	"redhat.telemetry.enabled": true,
+	"markdown-preview-enhanced.automaticallyShowPreviewOfMarkdownBeingEdited": true,
+	"java.jdt.ls.java.home": "",
+	"cmake.configureOnOpen": true,
+	"terminal.integrated.profiles.windows": {
+		"Command Prompt": {
+			"path": "C:\\Windows\\System32\\cmd.exe",
+			"args": ["-NoExit", "/K", "chcp 65001"]
+		},
+		"PowerShell": {
+			"source": "PowerShell",
+			"args": ["-NoExit", "/C", "chcp 65001"]
+		},
+		"JavaSE-1.8 LTS": {
+			"overrideName": true,
+			"env": {
+				"PATH": "C:\\Users\\27767\\.jdks\\corretto-1.8.0_392\\bin;${env:PATH}",
+				"JAVA_HOME": "C:\\Users\\27767\\.jdks\\corretto-1.8.0_392"
+			},
+			"path": "cmd"
+		},
+		"JavaSE-11 LTS": {
+			"overrideName": true,
+			"env": {
+				"PATH": "C:\\Users\\27767\\.jdks\\corretto-11.0.21\\bin;${env:PATH}",
+				"JAVA_HOME": "C:\\Users\\27767\\.jdks\\corretto-11.0.21"
+			},
+			"path": "cmd"
+		},
+		"JavaSE-17 LTS": {
+			"overrideName": true,
+			"env": {
+				"PATH": "C:\\Users\\27767\\.jdks\\corretto-17.0.9\\bin;${env:PATH}",
+				"JAVA_HOME": "C:\\Users\\27767\\.jdks\\corretto-17.0.9"
+			},
+			"path": "cmd"
+		},
+		"JavaSE-21 LTS": {
+			"overrideName": true,
+			"env": {
+				"PATH": "D:\\IMPORTANT\\jdk_21\\bin;${env:PATH}",
+				"JAVA_TOOL_OPTIONS": "-Dstdout.encoding=UTF-8 -Dstderr.encoding=UTF-8",
+				"JAVA_HOME": "D:\\IMPORTANT\\jdk_21"
+			},
+			"path": "cmd",
+			"args": ["/k", "chcp", "65001"]
+		},
+		"JavaSE-22": {
+			"overrideName": true,
+			"env": {
+				"PATH": "C:\\Users\\27767\\AppData\\Roaming\\Code\\User\\globalStorage\\pleiades.java-extension-pack-jdk\\java\\latest\\bin;${env:PATH}",
+				"JAVA_TOOL_OPTIONS": "-Dstdout.encoding=UTF-8 -Dstderr.encoding=UTF-8",
+				"JAVA_HOME": "C:\\Users\\27767\\AppData\\Roaming\\Code\\User\\globalStorage\\pleiades.java-extension-pack-jdk\\java\\latest"
+			},
+			"path": "cmd",
+			"args": ["/k", "chcp", "65001"]
+		}
+	},
+	"terminal.integrated.defaultProfile.windows": "JavaSE-21 LTS",
+	"easycode.model": "gpt-3.5-turbo-16k",
+	"easycode.openAI ApiKey": "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",
+	"easycode.useOwnApiKey": true,
+	"easycode.maxTokens": 2000,
+	"workbench.editorAssociations": {
+		"*.docx": "default",
+		"*.jar": "default",
+		"*.bin": "hexEditor.hexedit"
+	},
+	"[java]": {
+		"editor.suggest.snippetsPreventQuickSuggestions": false
+	},
+	"workbench.editor.enablePreview": false,
+	"testing.alwaysRevealTestOnStateChange": true,
+	"testing.automaticallyOpenPeekViewDuringAutoRun": true,
+	"git.openRepositoryInParentFolders": "never",
+	"window.zoomLevel": 1,
+	"open-in-browser.default": "Google Chrome",
+	"[vue]": {
+		"editor.defaultFormatter": "octref.vetur"
+	},
+
+	"cSpell.languageSettings": [],
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
+	"npm.enableRunFromFolder": true,
+	"npm.packageManager": "npm",
+	"npm.scriptExplorerAction": "run",
+	"git.autofetch": true,
+	"cmake.showOptionsMovedNotification": false,
+	"prettier.endOfLine": "auto",
+	"[c]": {
+		"editor.defaultFormatter": "ms-vscode.cpptools"
+	},
+	"leetcode.endpoint": "leetcode-cn",
+	"leetcode.workspaceFolder": "d:\\desktop\\Algorithms\\leetcode\\krahets88",
+	"leetcode.defaultLanguage": "python3",
+	"leetcode.hint.commandShortcut": false,
+	"leetcode.hint.configWebviewMarkdown": false,
+	"diffEditor.hideUnchangedRegions.enabled": true,
+	"[cpp]": {
+		"editor.defaultFormatter": "ms-vscode.cpptools"
+	},
+	"editor.quickSuggestions": {
+		"other": "true"
+	},
+	"[python]": {
+		"editor.defaultFormatter": "ms-python.black-formatter"
+	},
+	"editor.indentSize": "tabSize",
+	"pdf-preview.default.sidebar": true,
+	"previewServer.ui": {},
+	"prettier.vueIndentScriptAndStyle": true,
+	"prettier.bracketSameLine": true,
+	"prettier.printWidth": 160,
+	"prettier.useTabs": true,
+	"css.format.maxPreserveNewLines": 80,
+	"html.format.wrapLineLength": 60,
+	"editor.formatOnSave": true,
+	"editor.wordWrap": "on",
+	"editor.codeActionsOnSave": {
+		"source.organizeImports": "explicit"
+	},
+	"editor.linkedEditing": true,
+	"editor.minimap.enabled": false,
+	"editor.rulers": [
+		{
+			"column": 80,
+			"color": "#00FF0010"
+		},
+		{
+			"column": 100,
+			"color": "#BDB76B15"
+		},
+		{
+			"column": 120,
+			"color": "#FA807219"
+		}
+	],
+	"editor.unicodeHighlight.includeComments": true,
+	"emmet.variables": {
+		"lang": "zh"
+	},
+	"workbench.colorCustomizations": {
+		"[Default Dark Modern]": {
+			"tab.activeBorderTop": "#00FF00",
+			"tab.unfocusedActiveBorderTop": "#00FF0088",
+			"textCodeBlock.background": "#00000055"
+		},
+		"editor.wordHighlightStrongBorder": "#FF6347",
+		"editor.wordHighlightBorder": "#FFD700",
+		"editor.selectionHighlightBorder": "#A9A9A9"
+	},
+	"workbench.editor.revealIfOpen": true,
+	"workbench.tree.indent": 20,
+	"files.eol": "\n",
+	"[bat]": {
+		"files.eol": "\r\n"
+	},
+	"cSpell.diagnosticLevel": "Hint",
+	"trailing-spaces.backgroundColor": "rgba(255,0,0,0.1)",
+	"trailing-spaces.includeEmptyLines": false,
+	"terminal.integrated.tabs.hideCondition": "never",
+	"terminal.integrated.enablePersistentSessions": false,
+	"java.debug.settings.hotCodeReplace": "auto",
+	"java.sources.organizeImports.staticStarThreshold": 1,
+	"java.configuration.detectJdksAtStart": false,
+	"java.configuration.updateBuildConfiguration": "automatic",
+	"java.configuration.runtimes": [
+		{
+			"name": "JavaSE-1.8",
+			"path": "C:\\Users\\27767\\.jdks\\corretto-1.8.0_392"
+		},
+		{
+			"name": "JavaSE-11",
+			"path": "C:\\Users\\27767\\.jdks\\corretto-11.0.21"
+		},
+		{
+			"name": "JavaSE-17",
+			"path": "C:\\Users\\27767\\.jdks\\corretto-17.0.9"
+		},
+		{
+			"name": "JavaSE-21",
+			"path": "D:\\IMPORTANT\\jdk_21",
+			"default": true
+		},
+		{
+			"name": "JavaSE-22",
+			"path": "C:\\Users\\27767\\AppData\\Roaming\\Code\\User\\globalStorage\\pleiades.java-extension-pack-jdk\\java\\latest"
+		}
+	],
+	"terminal.integrated.automationProfile.windows": {
+		"path": "cmd"
+	},
+	"java.test.config": {
+		"vmArgs": ["-Dstdout.encoding=UTF-8", "-Dstderr.encoding=UTF-8"]
+	},
+	"terminal.integrated.env.windows": {
+		"JAVA_HOME": "D:\\IMPORTANT\\jdk_21",
+		"PATH": "D:\\IMPORTANT\\jdk_21\\bin;${env:PATH}"
+	},
+	"maven.terminal.customEnv": [
+		{
+			"environmentVariable": "JAVA_HOME",
+			"value": "D:\\IMPORTANT\\jdk_21"
+		}
+	],
+	"java.import.gradle.java.home": "D:\\IMPORTANT\\jdk_21",
+	"maven.executable.path": "C:\\Users\\27767\\AppData\\Roaming\\Code\\User\\globalStorage\\pleiades.java-extension-pack-jdk\\maven\\latest\\bin\\mvn",
+	"java.import.gradle.home": "C:\\Users\\27767\\AppData\\Roaming\\Code\\User\\globalStorage\\pleiades.java-extension-pack-jdk\\gradle\\latest",
+	"java.debug.settings.exceptionBreakpoint.skipClasses": [],
+	"java.configuration.maven.userSettings": "D:\\APP_download\\maven\\apache-maven-3.9.6\\conf\\settings.xml",
+	"java.configuration.maven.globalSettings": "D:\\APP_download\\maven\\apache-maven-3.9.6\\bin\\mvn",
+	"vim.commandLineModeKeyBindings": [],
+	"vim.handleKeys": {
+		"<C-d>": true,
+		"<C-s>": false,
+		"<C-z>": false
+	},
+	"vim.hlsearch": true,
+	"java.dependency.packagePresentation": "hierarchical",
+	"liveServer.settings.donotShowInfoMsg": true
+}

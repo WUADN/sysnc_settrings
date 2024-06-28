@@ -1,0 +1,39 @@
+// 将键绑定放在此文件中以覆盖默认值
+[
+  {
+    "key": "alt+p alt+p",
+    "command": "extension.preview"
+  },
+  {
+    "key": "ctrl+shift+v",
+    "command": "-extension.preview"
+  },
+  {
+    "key": "ctrl+shift+m",
+    "command": "markdown.showPreview",
+    "when": "!notebookEditorFocused && editorLangId == 'markdown'"
+  },
+  {
+    "key": "ctrl+shift+v",
+    "command": "-markdown.showPreview",
+    "when": "!notebookEditorFocused && editorLangId == 'markdown'"
+  },
+  {
+    "key": "ctrl+j ctrl+k",
+    "command": "workbench.action.tasks.build",
+    "when": "taskCommandsRegistered"
+  },
+  {
+    "key": "ctrl+shift+b",
+    "command": "-workbench.action.tasks.build",
+    "when": "taskCommandsRegistered"
+  },
+  {
+    "key": "ctrl+b ctrl+b",
+    "command": "extension.launch"
+  },
+  {
+    "key": "ctrl+shift+l",
+    "command": "-extension.launch"
+  }
+]
